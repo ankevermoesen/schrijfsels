@@ -6,7 +6,7 @@
 const SPACE_ID = "30sm7jlyiu97";
 const ACCESS_TOKEN =
   "1a85d0d283f7bbb726ce290b740a67fdc83a9fb29ec88a3858352225d2d7ca82";
-const POSTS_ENDPOINT = `http://cdn.contentful.com/spaces/${SPACE_ID}/entries?access_token=${ACCESS_TOKEN}&content_type=post&order=-sys.createdAt`;
+const POSTS_ENDPOINT = `https://cdn.contentful.com/spaces/${SPACE_ID}/entries?access_token=${ACCESS_TOKEN}&content_type=post&order=-sys.createdAt`;
 
 // Init Markdown converter
 const converter = new showdown.Converter();
