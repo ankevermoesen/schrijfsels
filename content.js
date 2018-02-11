@@ -29,7 +29,7 @@ const renderPosts = posts => {
   loaderDiv.remove();
 
   // Insert html
-  articlesSection.insertAdjacentHTML("afterbegin", postsHtml);
+  articlesSection.insertAdjacentHTML("afterbegin", postsHtml.join(""));
 };
 
 // Get post html
