@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Avenir", "Helvetica", sans-serif;
+  font-size: 18px;
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 18px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+i {
+  font-style: italic;
+}
+
+a {
+  color: #1234e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  line-height: 28px;
+  margin-bottom: 18px;
+  list-style-position: inside;
+}
+
+ul:last-child,
+ol:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+}
+
+li {
+  transition: 0.4s all;
+  padding-left: 0;
+  padding-bottom: 5px;
+}
+
+li:hover {
+  padding-left: 6px;
+}
+
+blockquote {
+  margin: 6px 0 24px;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.6;
+  color: #a4a4a4;
+  border-left: 4px solid #ccc;
+  padding: 8px 0 8px 16px;
+}
+
+blockquote:last-child {
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+  margin: 6px 0 24px;
+  border-radius: 4px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 500px;
+  background: #1234e6;
+}
+
+header h1 {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.articles {
+  width: 100%;
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 0 30px;
+}
+
+.articles article {
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.articles article:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.articles article h1.title {
+  font-size: 24px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1.4;
+  color: #1234e6;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 250px;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  .articles {
+    margin: 40px auto;
+  }
+
+  .articles article {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+}
