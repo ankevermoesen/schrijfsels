@@ -80,7 +80,7 @@ blockquote:last-child {
 
 img {
   width: 100%;
-  margin: 6px 0 24px;
+  margin: 6px 0;
   border-radius: 4px;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
 }
@@ -127,6 +127,13 @@ header h1 {
   line-height: 1.4;
   color: #1234e6;
   margin-bottom: 20px;
+}
+
+.articles .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
 @media (max-width: 600px) {
